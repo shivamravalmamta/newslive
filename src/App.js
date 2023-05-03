@@ -21,7 +21,7 @@ const App = () => {
 
     return (
       <div>
-        <Router basename='/newslive'>
+        <Router basename={process.env.BASE_NAME}>
           <Navbar />
           <LoadingBar
             height={3}
