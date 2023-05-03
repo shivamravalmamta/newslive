@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shivamravalmamta/newslive/static/css/main.c2deacad.css",
+    "main.js": "/shivamravalmamta/newslive/static/js/main.6ae57336.js",
+    "static/js/787.4c026eef.chunk.js": "/shivamravalmamta/newslive/static/js/787.4c026eef.chunk.js",
+    "static/media/loder.gif": "/shivamravalmamta/newslive/static/media/loder.d3fbaf2b81fd92c49692.gif",
+    "index.html": "/shivamravalmamta/newslive/index.html",
+    "main.c2deacad.css.map": "/shivamravalmamta/newslive/static/css/main.c2deacad.css.map",
+    "main.6ae57336.js.map": "/shivamravalmamta/newslive/static/js/main.6ae57336.js.map",
+    "787.4c026eef.chunk.js.map": "/shivamravalmamta/newslive/static/js/787.4c026eef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2deacad.css",
+    "static/js/main.6ae57336.js"
+  ]
+}
