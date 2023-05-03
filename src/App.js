@@ -21,7 +21,7 @@ const App = () => {
 
     return (
       <div>
-        <Router>
+        <Router basename='/newslive'>
           <Navbar />
           <LoadingBar
             height={3}
@@ -29,7 +29,7 @@ const App = () => {
             progress={progress}
           />
           <Routes>
-            <Route exact path="/" element={<News setProgress={setProgress}  apiKey={apiKey}   key="genral" pageSize={pageSize} counry="in" category="general" />}></Route>
+            <Route exact path="/newslive" element={<News setProgress={setProgress}  apiKey={apiKey}   key="genral" pageSize={pageSize} counry="in" category="general" />}></Route>
             <Route exact path="/business" element={<News setProgress={setProgress}  apiKey={apiKey}  key="business" pageSize={pageSize} counry="in" category="business" />}></Route>
             <Route exact path="/entertainment" element={<News setProgress={setProgress}  apiKey={apiKey}  key="entertainment" pageSize={pageSize} counry="in" category="entertainment" />}></Route>
             <Route exact path="/health" element={<News setProgress={setProgress}  apiKey={apiKey}  key="health" pageSize={pageSize} counry="in" category="health" />}></Route>
