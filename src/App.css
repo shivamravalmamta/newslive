@@ -1,0 +1,22 @@
+.card img {
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+}
+footer {
+  position: fixed;
+  height: unset;
+  bottom: 0;
+  width: 100%;
+  background: #000 !important;
+  color: #fff;
+}
+.text-center {
+  padding: 7px 0 !important;
+}
+footer.bg-body-tertiary {
+  background-color: #000 !important;
+}
+.infinite-scroll-component__outerdiv {
+  margin-bottom: 50px; 
+}
