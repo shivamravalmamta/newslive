@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 import Navbar from './Components/Navbar';
 import News from './Components/News';
 import {
-  HashRouter as Router,
+  HashRouter ,
   Routes,
   Route
 } from "react-router-dom";
@@ -21,7 +21,7 @@ const App = () => {
 
     return (
       <div>
-        <Router basename={process.env.BASE_NAME}>
+        <HashRouter  basename={process.env.BASE_NAME}>
           <Navbar />
           <LoadingBar
             height={3}
@@ -39,7 +39,7 @@ const App = () => {
           </Routes>
 
           <Footer/>
-        </Router>
+        </HashRouter>
       </div>
     )
 
